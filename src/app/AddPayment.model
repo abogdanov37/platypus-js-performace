@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="id" nullable="false" parameterMode="1" selectionForm="null" type="Number"/>
+    <parameter description="" name="time" nullable="true" parameterMode="1" selectionForm="null" type="Date"/>
+    <parameter description="" name="value" nullable="false" parameterMode="1" selectionForm="null" type="Number"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="149095042926300" entityLocationX="295" entityLocationY="7" entityWidth="150" tableAlias="" tableName="payments" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="id" rightEntityFieldName="payments_id" rightEntityId="149095042926300"/>
+  <relation leftEntityId="-1" leftEntityParameterName="value" rightEntityFieldName="value" rightEntityId="149095042926300"/>
+  <relation leftEntityId="-1" leftEntityParameterName="time" rightEntityFieldName="time" rightEntityId="149095042926300"/>
+</datamodel>
