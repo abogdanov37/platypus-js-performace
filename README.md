@@ -29,8 +29,16 @@ So for tests I used following components
 
 ## Results
 
-| Clients       | Business logic | Business logic | Business logic           |
-|               | without DB     | with DB        | with DB (used trick      |
-|               |                |                | with data model loading) |
-|---------------|--------------|--------------|-------------------------|
-|               |                |                |                          |
+ Clients       | Business logic  without DB | Business logic with DB | Business logic with DB (used trick with data model loading)       
+ ------------- | -------------------------- | ---------------------- | ---------------------------------------------------------- 
+  1            |   4000                     |  120                   |     140                     
+  2            |   4000                     |  120                   |     140                     
+  4            |   4000                     |  120                   |     140                     
+  8            |   4000                     |  120                   |     140                     
+  16           |   4000                     |  120                   |     140                     
+  32           |   4000                     |  120                   |     140                     
+  64           |   4000                     |  120                   |     140                     
+  128          |   4000                     |  120                   |     140                     
+  256          |   4000                     |  120                   |     140                     
+  512          |   4000                     |  120                   |     140                     
+  1024         |   4000                     |  120                   |     140                     
