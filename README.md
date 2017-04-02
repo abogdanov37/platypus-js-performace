@@ -29,6 +29,8 @@ So for tests I used following components
 
 ## Results
 
+In table information present in **requests per second**.
+
  Clients       | Business logic  without DB | Business logic with DB | Business logic with DB (used trick with data model loading)       
  ------------- | -------------------------- | ---------------------- | ---------------------------------------------------------- 
   1            |   2610                     |  123                   |     143                     
